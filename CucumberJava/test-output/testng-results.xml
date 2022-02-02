@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[PASSED: User is on the to do page]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: To do item 'Drop kid at the school added to the list successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 1, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: User is on the to do page]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: To do item 'Doctor appointment at 12PM added to the list successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: User is on the to do page]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: To do item 'Meeting at 2PM added to the list successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 3, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: User is on the to do page]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: To do item 'Pick up from school added to the list successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 4, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Item edited successfully in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 4, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Item deleted successfully in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 3, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Item deleted completed in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Filter selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: 'Active' Filter verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Filter selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: 'Completed' Filter verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Filter selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: 'All' Filter verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Items present in the list]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Completed items cleared successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-02T14:07:16 SGT" name="Default suite" finished-at="2022-02-02T14:07:27 SGT" duration-ms="11119">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" name="runScenario" class="Base.TestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-02T14:07:16 SGT" name="Default test" finished-at="2022-02-02T14:07:27 SGT" duration-ms="11119">
+      <class name="Runner.Runner">
+        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:10 SGT" name="CreateDriver" finished-at="2022-02-02T14:07:16 SGT" duration-ms="5627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDriver -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:16 SGT" name="setUpClass" finished-at="2022-02-02T14:07:17 SGT" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:17 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:17 SGT" duration-ms="748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: User is on the to do page]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: To do item 'Drop kid at the school added to the list successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 1, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:17 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:18 SGT" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: User is on the to do page]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: To do item 'Doctor appointment at 12PM added to the list successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:18 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:18 SGT" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: User is on the to do page]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: To do item 'Meeting at 2PM added to the list successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 3, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:18 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:19 SGT" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: User is on the to do page]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: To do item 'Pick up from school added to the list successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 4, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:19 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:20 SGT" duration-ms="966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edit item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Item edited successfully in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 4, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:20 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:20 SGT" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Item deleted successfully in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 3, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:20 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:20 SGT" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Complete item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Item deleted completed in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:20 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:21 SGT" duration-ms="398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Filter selected successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: 'Active' Filter verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:21 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:21 SGT" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Filter selected successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: 'Completed' Filter verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:21 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:21 SGT" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Filter selected successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: 'All' Filter verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:21 SGT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-02T14:07:22 SGT" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Clear completed item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage To Do list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED: Items present in the list]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Completed items cleared successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: Number of items left is 2, which is equivalent to the items in the list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:22 SGT" name="tearDownClass" finished-at="2022-02-02T14:07:27 SGT" duration-ms="4976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.Runner@4b45a2f5]" started-at="2022-02-02T14:07:27 SGT" name="afterSuite" finished-at="2022-02-02T14:07:28 SGT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

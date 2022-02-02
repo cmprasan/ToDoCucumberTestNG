@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ToDo Test Suite" parallel="none">
+	<test name="ToDo List" preserve-order="true">
+		<classes>
+			<class name="Runner.Runner">
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

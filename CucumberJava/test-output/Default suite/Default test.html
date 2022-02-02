@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 02 14:07:16 SGT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11119 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Clear completed item", "Optional[Manage To Do list]"<br/>
+<a href="#Output-513324936" onClick='toggleBox("Output-513324936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-513324936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-513324936">
+PASSED: Items present in the list<br/>
+PASSED: Completed items cleared successfully<br/>
+PASSED: Number of items left is 2, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify filters", "Optional[Manage To Do list]"<br/>
+<a href="#Output-254642444" onClick='toggleBox("Output-254642444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-254642444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-254642444">
+PASSED: Items present in the list<br/>
+PASSED: Filter selected successfully<br/>
+PASSED: 'Completed' Filter verified successfully<br/>
+PASSED: Number of items left is 2, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a list", "Optional[Manage To Do list]"<br/>
+<a href="#Output-977972728" onClick='toggleBox("Output-977972728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977972728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977972728">
+PASSED: User is on the to do page<br/>
+PASSED: To do item 'Pick up from school added to the list successfully<br/>
+PASSED: Number of items left is 4, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a list", "Optional[Manage To Do list]"<br/>
+<a href="#Output-117839394" onClick='toggleBox("Output-117839394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117839394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117839394">
+PASSED: User is on the to do page<br/>
+PASSED: To do item 'Doctor appointment at 12PM added to the list successfully<br/>
+PASSED: Number of items left is 2, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a list", "Optional[Manage To Do list]"<br/>
+<a href="#Output-252339901" onClick='toggleBox("Output-252339901", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252339901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252339901">
+PASSED: User is on the to do page<br/>
+PASSED: To do item 'Drop kid at the school added to the list successfully<br/>
+PASSED: Number of items left is 1, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a list", "Optional[Manage To Do list]"<br/>
+<a href="#Output-245386411" onClick='toggleBox("Output-245386411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245386411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245386411">
+PASSED: User is on the to do page<br/>
+PASSED: To do item 'Meeting at 2PM added to the list successfully<br/>
+PASSED: Number of items left is 3, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify filters", "Optional[Manage To Do list]"<br/>
+<a href="#Output-150835665" onClick='toggleBox("Output-150835665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150835665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150835665">
+PASSED: Items present in the list<br/>
+PASSED: Filter selected successfully<br/>
+PASSED: 'All' Filter verified successfully<br/>
+PASSED: Number of items left is 2, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit item", "Optional[Manage To Do list]"<br/>
+<a href="#Output-953683301" onClick='toggleBox("Output-953683301", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-953683301" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-953683301">
+PASSED: Items present in the list<br/>
+PASSED: Item edited successfully in the list<br/>
+PASSED: Number of items left is 4, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Complete item", "Optional[Manage To Do list]"<br/>
+<a href="#Output-994581493" onClick='toggleBox("Output-994581493", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-994581493" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-994581493">
+PASSED: Items present in the list<br/>
+PASSED: Item deleted completed in the list<br/>
+PASSED: Number of items left is 2, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete item", "Optional[Manage To Do list]"<br/>
+<a href="#Output-815648243" onClick='toggleBox("Output-815648243", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-815648243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-815648243">
+PASSED: Items present in the list<br/>
+PASSED: Item deleted successfully in the list<br/>
+PASSED: Number of items left is 3, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify filters", "Optional[Manage To Do list]"<br/>
+<a href="#Output-1287658623" onClick='toggleBox("Output-1287658623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1287658623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1287658623">
+PASSED: Items present in the list<br/>
+PASSED: Filter selected successfully<br/>
+PASSED: 'Active' Filter verified successfully<br/>
+PASSED: Number of items left is 2, which is equivalent to the items in the list<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@4b45a2f5</td></tr>
+</table><p>
+</body>
+</html>
